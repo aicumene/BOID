@@ -1,0 +1,143 @@
+cff-version: 1.2.0
+message: >-
+  If you use BOID, please cite the associated BOID preprint. After the
+  peer-reviewed journal article is published, add and use its final citation
+  where appropriate.
+title: "BOID — Bernadotte Oscillator Intrinsic Dimension"
+abstract: >-
+  Bernadotte Oscillator Intrinsic Dimension (BOID) is a general method for
+  estimating resolved oscillatory dimensionality in multichannel time series.
+  It combines block-Hankel embedding and multichannel singular spectrum
+  analysis with Marchenko–Pastur / Bai–Yin signal-subspace rank estimation and
+  TLS-ESPRIT pole recovery. BOID is defined operationally as the number of
+  retained positive-frequency oscillatory modes within a specified analysis
+  band.
+type: software
+authors:
+  - family-names: "Bernadotte"
+    given-names: "Alexandra"
+    affiliation: "AiCumene"
+    orcid: "https://orcid.org/0000-0002-8835-6583"
+  - family-names: "Menshikov"
+    given-names: "Ivan"
+    affiliation: "AiCumene"
+    orcid: "https://orcid.org/0000-0002-9987-4060"
+version: "0.1.0"
+date-released: 2026-09-24
+license: "PolyForm-Noncommercial-1.0.0"
+repository-code: "https://github.com/aicumene/BOID"
+url: "https://research.aicumene.com/papers/boid-coma/"
+keywords:
+  - Bernadotte Oscillator Intrinsic Dimension
+  - BOID
+  - oscillator intrinsic dimension
+  - multichannel singular spectrum analysis
+  - MSSA
+  - block-Hankel embedding
+  - Bai-Yin rank estimation
+  - Marchenko-Pastur distribution
+  - TLS-ESPRIT
+  - oscillatory modes
+  - intrinsic dimension
+  - geometric invariance
+  - Hankel subspace geometry
+  - multichannel time series
+  - EEG
+preferred-citation:
+  type: article
+  title: "Brain Oscillator Intrinsic Dimension marks consciousness, recovery mode, and failed downshifting in coma"
+  authors:
+    - family-names: "Bernadotte"
+      given-names: "Alexandra"
+      affiliation: "AiCumene"
+      orcid: "https://orcid.org/0000-0002-8835-6583"
+    - family-names: "Menshikov"
+      given-names: "Ivan"
+      affiliation: "AiCumene"
+      orcid: "https://orcid.org/0000-0002-9987-4060"
+  year: 2026
+  doi: "10.13140/RG.2.2.31610.25288"
+  url: "https://research.aicumene.com/papers/boid-coma/"
+  notes: >-
+    AiCumene preprint associated with BOID. A peer-reviewed manuscript titled
+    "Brain states are organized by regulated oscillator dimensionality" is in
+    preparation / submission; add the final journal citation and DOI after
+    publication.
+references:
+  - type: article
+    title: "Multichannel Singular Spectrum Analysis"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+      - family-names: "Menshikov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0000-0002-9987-4060"
+    year: 2026
+    publisher:
+      name: "AiCumene"
+    notes: "Preprint"
+    url: "https://research.aicumene.com/papers/MSSA/"
+
+
+  - type: article
+    title: "Topology-driven classification of time series"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+    year: 2026
+    doi: "10.64898/2026.04.25.720787"
+    url: "https://doi.org/10.64898/2026.04.25.720787"
+    notes: >-
+      Theoretical foundation of BOID. Theorem 1 and Eqs. (24)-(26) establish
+      the component-to-dimension relation for structured Hankel/delay
+      embeddings that underlies oscillator-dimensionality estimation.
+
+  - type: dataset
+    title: "AiCumene EEG-BCI Sleep-Wake Dataset"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+      - family-names: "Menshikov"
+        given-names: "Ivan"
+    year: 2026
+    doi: "10.5281/zenodo.22923070"
+
+  - type: article
+    title: "Method for evaluating the number of signal sources and application to non-invasive brain-computer interface"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+      - family-names: "Buchstaber"
+        given-names: "Victor"
+    year: 2024
+    doi: "10.48550/arXiv.2410.11844"
+    url: "https://doi.org/10.48550/arXiv.2410.11844"
+    notes: "Foundational precursor in the Hankel-embedding/source-counting line preceding the BOID formulation."
+
+  - type: book
+    title: "Analysis of Time Series Structure: SSA and Related Techniques"
+    authors:
+      - family-names: "Golyandina"
+        given-names: "Nina"
+      - family-names: "Nekrutkin"
+        given-names: "Vladimir"
+      - family-names: "Zhigljavsky"
+        given-names: "Anatoly"
+    year: 2001
+    publisher:
+      name: "Chapman & Hall/CRC"
+    notes: "Foundational singular spectrum analysis (SSA)."
+
+  - type: article
+    title: "ESPRIT — estimation of signal parameters via rotational invariance techniques"
+    authors:
+      - family-names: "Roy"
+        given-names: "Richard"
+      - family-names: "Kailath"
+        given-names: "Thomas"
+    year: 1989
+    doi: "10.1109/29.32276"
+    notes: "Foundational ESPRIT pole estimation."

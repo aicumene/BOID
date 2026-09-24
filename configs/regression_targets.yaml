@@ -1,0 +1,35 @@
+# Headline numerical targets reported in the current manuscript.
+# These are validation targets, not hard-coded outputs.
+
+sleep_edf:
+  subject_level_median_boid:
+    W: 18
+    N1: 13
+    N2: 8
+    N3: 4
+    REM: 11
+
+aicumene_sleep:
+  subject_level_median_boid:
+    W: 17
+    N1: 12
+    N2: 8
+    N3: 4
+    REM: 10
+
+propofol:
+  median_boid:
+    awake: 30.5
+    sedated: 21.5
+
+icare:
+  bare_boid_auc: 0.68
+  pmpi_auc: 0.77
+  full_fusion_auc: 0.81
+  subspace_classifier_auc: 0.724
+
+synthetic:
+  boid_pearson_r_with_true_m: 0.88
+  lz76_r_with_noise: 0.76
+  lz76_r_with_m: 0.50
+  spectral_entropy_r_with_m: 0.25

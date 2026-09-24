@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------------------
+# BOID repository .gitignore
+# This is a CODE repository. Data, keys, and large artefacts must never be
+# committed here — the dataset lives in its own repository / Zenodo record.
+# (Figures under figures/*.png are intentionally tracked and NOT ignored.)
+# ---------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Guard: biosignal / scientific data (never commit data into the code repo)
+*.edf
+*.edf+
+*.rec
+*.bdf
+*.set
+*.fif
+*.npz
+*.npy
+*.mat
+*.h5
+*.hdf5
+*.pkl
+*.parquet
+
+# Guard: archives / bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Guard: secrets, keys, access control
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.*
+*_KEY.csv
+*NAMEKEY*
+*BLINDING*
+
+# Logs / temp / scratch
+*.log
+tmp/
+scratch/
+.cache/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp

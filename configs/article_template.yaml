@@ -1,0 +1,23 @@
+preprocessing:
+  bandpass_hz: [0.5, 40.0]
+  target_fs_hz: 100.0
+  oscillator_window_seconds: 4.0
+  sleep_spectrum_window_seconds: 30.0
+  variance_epsilon: 1.0e-12
+
+boid:
+  # Required for final reproduction:
+  embedding_lag: null
+  delay_samples: 1
+  frequency_hz: [1.0, 40.0]
+
+  # Required for final reproduction:
+  finite_sample_correction: null
+
+synthetic_validation:
+  oscillator_counts: [3, 12]
+  noise_sigma: [0.3, 1.5]
+  realizations_per_cell: 40
+  frequency_hz: [2.0, 40.0]
+  duration_seconds: 4.0
+  sampling_rate_hz: 100.0
